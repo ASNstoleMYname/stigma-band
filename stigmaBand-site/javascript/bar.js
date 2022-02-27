@@ -56,7 +56,7 @@ function Circle(x, y, dx, dy,raduis,canvas) {
 
 //circleTotalBar is the total amount of circles in each side bar
 //color is the color of the BOLLS
-var circleTotalBar = 50;
+var circleTotalBar = 75;
 var color = ['#a0df00',];
 
 //generates all de circles and coresponding values for the circles in sidebar1
