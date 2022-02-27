@@ -1,0 +1,16 @@
+@font-face {
+    font-family: shonenBold;
+    src: url(../fonts/ShonenPunk-custom-bold.ttf) format('truetype'),
+         url(../fonts/ShonenPunk-custom-bold.woff) format('woff');
+ }
+
+ @font-face {
+    font-family: second;
+    src: url(../fonts/Hey-Comic.ttf) format('truetype');
+ }
+
+@font-face {
+    font-family: normal;
+    src: url(../fonts/BebasNeue-Regular.ttf) format('truetype'),
+         url(../fonts/BebasNeue-Regular.woff) format('woff');
+ }
