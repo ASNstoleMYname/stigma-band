@@ -1,6 +1,5 @@
 
 
-
 body{
    background-color: #ffffee ;
    box-sizing: border-box;
@@ -14,7 +13,7 @@ body{
 
 
 .header {
-   background-color: #201010 ;
+   background-color: #201010;
 }
 
 .name {  
@@ -88,15 +87,18 @@ body{
 
 }
 
-.nav-soc a ion-icon:hover {
-   color:#a0df00;
+.nav-soc a ion-icon#insta:hover {
+   color:#fd1d1d;
 }
-.nav-soc a ion-icon:hover::after {
-   content:'';
-   background-color: #a0df00;
-   height: 1px;
-   display: block;
+
+.nav-soc a ion-icon#twitter:hover {
+   color:#1da1f2;
 }
+
+.nav-soc a ion-icon#youtube:hover {
+   color:#FF0000;
+}
+
 
 .main {
    padding: 1em;

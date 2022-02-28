@@ -33,18 +33,23 @@
     grid-row: 2;
     display:grid;
     grid-template-columns: auto;
-    grid-template-rows: 0.4fr;
+    grid-template-rows: 0.05fr;
     background-color: #201010 ;
 }
 
 #album-info-title {
     font-family: BebasNeue;
     font-size: 48px;
-    color: #ffffee;
-    margin-bottom:0px;
+    color: #5000d9 ;
+    margin: 0px;
+    margin-top: 3px;
     margin-left: 10px;
     display: flex;  
     align-items:flex-end;
+}
+
+#album-info-title span {
+    color: #ffffee;
 }
 
 #album-info-info {
@@ -56,12 +61,16 @@
 }
 
 #album-info-info-songs {
-    font-family: openSans-reg;
-    font-size:medium;
+    font-family: openSans-italic;
+    font-size: 20px;
 
     color:#ffffee;
-    padding-left: 24px;
+    padding-left: 28px;
     margin: 0px;
+}
+
+#album-info-info-songs li {
+    padding-top:2px;
 }
 
 #album-pic {
