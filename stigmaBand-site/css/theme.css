@@ -1,3 +1,6 @@
+
+
+
 body{
    background-color: #ffffee ;
    box-sizing: border-box;
@@ -22,7 +25,7 @@ body{
    align-self: center;
    /*color: #ffffee  ;*/
    font-family: shonenBold;
-   font-size:xx-large;   
+   font-size: 48px;   
 }
 
 .name a{
@@ -48,7 +51,7 @@ body{
    display: table-cell;
    vertical-align: middle;
    color:#ffffee ;
-   font-size: large;
+   font-size: 24px;
    font-family: BebasNeue;
 
 }
@@ -96,7 +99,7 @@ body{
 }
 
 .main {
-   padding: 30px;
+   padding: 1em;
    background-color: #EBE9DA;
    font-family: openSans-reg;
 }

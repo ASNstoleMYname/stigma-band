@@ -7,7 +7,6 @@ var bar2 = document.querySelector('.sideBar2');
 var bar2Width = bar2.clientWidth;
 var bar2Height = bar2.clientHeight;
 
-console.log(bar1Width +","+bar1Height);
 //setting the corrent canvas's
 //canvas1
 var canvas1 = document.querySelector('#can1');
@@ -50,7 +49,6 @@ function Circle(x, y, dx, dy,raduis,canvas) {
         this.x += this.dx;
         this.y += this.dy;
         this.draw();
-        console.log()
     }
 }
 

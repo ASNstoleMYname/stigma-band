@@ -7,7 +7,7 @@
 .wrapper {
   display: grid;
   grid-template-columns: 0.5fr 2.7fr 0.5fr;
-  grid-template-rows: 0.4fr 2.1fr;
+  grid-template-rows: 0.5fr 2.1fr;
   width: 100vw;
   height: 100vh;
 }
