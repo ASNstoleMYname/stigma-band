@@ -1,0 +1,95 @@
+.homepage {
+    display:grid;
+    grid-template-columns: 0.6fr 0.4fr;
+    grid-template-rows: 0.9fr 0.8fr 1fr;
+    gap: 1em;
+    height: 100vh;
+}
+
+#bio {
+    grid-column: 1 /3 ;
+    grid-row: 1;
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: 0.4fr;
+    
+}
+#bio-title{
+    font-family: BebasNeue;
+    font-size: 48px;
+    margin-bottom:0px;
+    display: flex;
+    align-items:flex-end;
+}
+
+#bio-info {
+    font-family: openSans-reg;
+    font-size:large;
+    margin: 0px
+}
+
+#album-info {
+    grid-column: 1 / 3;
+    grid-row: 2;
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: 0.05fr;
+    background-color: #201010 ;
+}
+
+#album-info-title {
+    font-family: BebasNeue;
+    font-size: 48px;
+    color: #5000d9 ;
+    margin: 0px;
+    margin-top: 3px;
+    margin-left: 10px;
+    display: flex;  
+    align-items:flex-end;
+}
+
+#album-info-title span {
+    color: #ffffee;
+}
+
+#album-info-info {
+    width: 0%;
+    height: 0%;
+    margin: 0px;
+    display: flex;  
+    align-items:flex-end;
+}
+
+#album-info-info-songs {
+    font-family: openSans-italic;
+    font-size: 20px;
+
+    color:#ffffee;
+    padding-left: 28px;
+    margin: 0px;
+}
+
+#album-info-info-songs li {
+    padding-top:2px;
+}
+
+#album-pic {
+    grid-column:2 ;
+    grid-row:2 ;
+    display: flex;
+    justify-content:flex-end;
+    align-self: center;
+    margin: 10px;
+}
+
+#album-pic > img {
+    object-fit: cover;
+    width: 60%;
+    max-height: 60%;
+
+}
+
+#other {
+    grid-column:1 / 3 ;
+    grid-row:3 ;
+}

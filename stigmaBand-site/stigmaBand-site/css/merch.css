@@ -1,0 +1,49 @@
+.merchPage {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 1.1fr 0.8fr 1.1fr;
+    height: 100vh;
+}
+
+#sold-out {
+    grid-column: 2;
+    grid-row: 2;
+    border: #201010;
+    border-width: 5px;
+    border-style: solid;
+    padding-bottom: 10px;
+}
+
+#sold-out div {
+    height: 100%;
+    overflow: auto;
+    border: #a0df00 ;
+    border-width: 5px;
+    border-style: solid;
+    background-color: #201010;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#sold-out div p {
+    margin: 0px;
+    color:#ffffee;
+    font-family: BebasNeue;
+    font-size: 84px;
+}
+
+#sold-out div p::before {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color:#a0df00;
+}
+
+#sold-out div p::after {
+    content: "";
+    display: block;
+    height: 5px;
+    background-color:#a0df00;
+
+}
