@@ -7,7 +7,9 @@
         <link rel="stylesheet" type="text/css" href="css/grid.css">
         <link rel="stylesheet" type="text/css" href="css/theme.css">
         <link rel="stylesheet" type="text/css" href="css/scrollBar.css">
-        <link rel="stylesheet" type="text/css" href="fonts/fontRoot.css"
+        <link rel="stylesheet" type="text/css" href="css/tickets.css">
+        <link rel="stylesheet" type="text/css" href="fonts/fontRoot.css">
+
     </head>
     <body>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -21,13 +23,31 @@
                     <a href="merch.html"><li>merch</li></a>
                 </ul>
                 <ul class="nav-soc">
+                    <a href="https://www.bandsintown.com/a/15500066-stigma-isoband?affil_code=js_&app_id=js_&came_from=242&trigger=play_my_city&utm_campaign=play_my_city&utm_medium=web&utm_source=widget"><img id="bandsInTown"src="../stigmaBand-site/icons/bandsintown-svgrepo-com.svg"></a>
                     <a href="https://www.instagram.com/stigma.isoband/"><ion-icon name="logo-instagram" size="large" id="insta"></ion-icon></a>
                     <a href="https://twitter.com/DupontLuois"><ion-icon name="logo-twitter" size="large" id="twitter"></ion-icon></a>
                     <a href="https://www.youtube.com/channel/UCVonDvfZH3P4OjO-XwHGTUQ"><ion-icon name="logo-youtube" size="large" id="youtube"></ion-icon></a>
                 </ul>
             </div>
             <div class="main">
-                <p>tickets sold out</p>
+                <div class="ticketsPage">   
+                <script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script>
+                <a class="bit-widget-initializer"
+                    
+                    data-artist-name="id_15500066"
+                    
+                    data-font="Helvetica"
+                    data-language="en"
+                    data-display-details="true"
+                    data-text-color="rgba(32,16,16,1)"
+                    data-background-color="rgba(235,233,218,1)"
+                    data-separator-color="rgba(32,16,16,1)"
+                    data-popup-background-color="rgba(235,233,218,1)"
+                    data-link-color="rgba(32,16,16,1)"
+                    data-link-text-color="rgba(160,223,0,1)"
+                    data-display-past-dates="false"
+                    ></a>
+                </div>
             </div>
 
             <div class="sideBar1"><canvas id="can1" width="0px"></canvas><script src="javascript/bar.js"></script></div>
